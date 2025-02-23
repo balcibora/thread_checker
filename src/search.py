@@ -153,7 +153,7 @@ def find_thread_flags(text: str) -> dict:
 # --- Main Execution --- #
 
 # directory = input("Enter the directory containing source code: ").strip()
-directory = "./code_dir"
+directory = os.path.abspath("./test")
 
 # if not os.path.isdir(directory):
 #     print("Invalid directory. Please enter a valid directory path.")
